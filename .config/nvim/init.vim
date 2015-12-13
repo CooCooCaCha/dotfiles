@@ -24,8 +24,11 @@ nnoremap <c-p> :FZF<cr>
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
-let $NVIM_TUI_ENABLE_TRUE_COLOR = 1
-let g:python_host_prog          = system('where python3')
+let $NVIM_TUI_ENABLE_TRUE_COLOR    = 1
+let g:python_host_prog             = system('where python3')
+let g:UltiSnipsExpandTrigger       = "<tab>"
+let g:UltiSnipsJumpForwardTrigger  = "<c-b>"
+let g:UltiSnipsJumpBackwardTrigger = "<c-z>"
 
 syntax on
 colorscheme onedark
