@@ -12,6 +12,8 @@ Plug 'bling/vim-airline'
 Plug 'ervandew/supertab'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+Plug 'tpope/vim-surround'
+Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 
 set number
