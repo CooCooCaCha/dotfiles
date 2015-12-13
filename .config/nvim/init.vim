@@ -21,9 +21,11 @@ set expandtab
 
 nnoremap <c-p> :FZF<cr>
 
+xmap ga <Plug>(EasyAlign)
+nmap ga <Plug>(EasyAlign)
+
 let $NVIM_TUI_ENABLE_TRUE_COLOR = 1
-let g:python3_host_prog         = system('where python3')
-let g:UltiSnipsNoPythonWarning  = 1
+let g:python_host_prog          = system('where python3')
 
 syntax on
 colorscheme onedark
