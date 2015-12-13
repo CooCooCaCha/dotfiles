@@ -14,6 +14,8 @@ Plug 'ludovicchabant/vim-gutentags'
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'tpope/vim-surround'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'mbbill/undotree'
+Plug 'mhinz/vim-startify'
 call plug#end()
 
 set number
