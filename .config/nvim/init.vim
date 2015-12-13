@@ -11,6 +11,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'bling/vim-airline'
 Plug 'ervandew/supertab'
 Plug 'ludovicchabant/vim-gutentags'
+Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 call plug#end()
 
 set number
