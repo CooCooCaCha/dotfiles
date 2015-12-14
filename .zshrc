@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/bill/.oh-my-zsh
+export PATH=/opt/boxen/rbenv/shims:bin:/opt/boxen/rbenv/bin:/opt/boxen/ruby-build/bin:node_modules/.bin:/opt/boxen/nodenv/shims:/opt/boxen/nodenv/bin:/opt/boxen/bin:/opt/boxen/homebrew/bin:/opt/boxen/homebrew/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:~/bin:$PATH
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -49,7 +50,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git bundler common-aliases gitfast wd)
 
 # User configuration
 
@@ -85,4 +86,5 @@ source $ZSH/oh-my-zsh.sh
 
 alias vim='nvim'
 
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
