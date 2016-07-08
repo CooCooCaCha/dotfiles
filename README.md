@@ -1,7 +1,5 @@
 # dotfiles
 
-Just my dotfiles
+Just my dotfiles managed by dotbot.
 
-To use just execute `./run.sh` from this repo.
-
-![](screenshots/vim.png)
+To install run `./install`

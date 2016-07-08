@@ -1,3 +1,4 @@
-.config/nvim/autoload/plugged
-.netrwhist
 .DS_Store
+*~
+*.swp
+private
